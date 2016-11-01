@@ -13,6 +13,7 @@
 	</div><!-- .site-content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
+    ooxxooxoxoxoxo
 		<div class="site-info">
 			<?php
 				/**
