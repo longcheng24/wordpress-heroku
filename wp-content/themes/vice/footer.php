@@ -16,9 +16,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url('https://wordpress.org/'); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'vice' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'vice' ), 'Vice', '<a href="http://github.com/saumya010" rel="designer">Saumya Sharma</a>' ); ?>
+			© COPYRIGHT 2016 LONG CHENG • MANAGEMENT + DEVELOPMENT + DESIGN
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
