@@ -16,7 +16,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			© COPYRIGHT 2016 LONG CHENG • MANAGEMENT + DEVELOPMENT + DESIGN
+			© COPYRIGHT 2016 LONG CHENG | MANAGEMENT + DEVELOPMENT + DESIGN
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
