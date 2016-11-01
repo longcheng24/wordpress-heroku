@@ -52,9 +52,7 @@
 		<?php endif; ?>
 
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'cerauno' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'cerauno' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'cerauno' ), 'Cerauno', '<a href="http://wordpress.com/themes/" rel="designer">Automattic</a>' ); ?>
+			LONG CHENG | MANAGEMENT + DEVELOPMENT + DESIGN
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
