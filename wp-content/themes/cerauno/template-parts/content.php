@@ -15,6 +15,11 @@
 			<div class="featured-image">
 				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_post_thumbnail( 'cerauno-home' ); ?></a>
 			</div>
+            <?php if ( 'post' == get_post_type() ) : ?>
+		<div class="entry-meta">
+			<?php cerauno_posted_on(); ?>
+		</div><!-- .entry-meta -->
+	<?php endif; ?>
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
@@ -22,10 +27,6 @@
 		<?php the_excerpt(); ?>
 	</div><!-- .entry-excerpt -->
 
-	<?php if ( 'post' == get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php cerauno_posted_on(); ?>
-		</div><!-- .entry-meta -->
-	<?php endif; ?>
+	
 
 </article><!-- #post-## -->

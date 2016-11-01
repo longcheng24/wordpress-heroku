@@ -1832,9 +1832,24 @@ object {
 		display: block;
 	}
 }
-.entry-title{
+.home .entry-title{
 font-size:30px !important	
 }
 .byline, .comments-link, .edit-link{
 display:none !important;	
+}
+.home .featured-image{
+width:50% !important;
+display: inline-block !important;
+}
+.home .entry-meta{
+float:none !important;
+	display: inline-block !important;
+	position:relative !important;
+	vertical-align: top !important;
+}
+.home .entry-summary{
+float:none !important;
+width:90% !important;
+	
 }
