@@ -1832,3 +1832,9 @@ object {
 		display: block;
 	}
 }
+.entry-title{
+font-size:30px !important	
+}
+.byline, .comments-link, .edit-link{
+display:none !important;	
+}
