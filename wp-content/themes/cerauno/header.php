@@ -47,11 +47,3 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
-
-	<?php if ( is_single() || is_page() && has_post_thumbnail() ) : ?>
-		<div class="featured-header-image">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<?php the_post_thumbnail( 'cerauno-header' ); ?>
-			</a>
-		</div><!-- .featured-header-image -->
-	<?php endif; ?>

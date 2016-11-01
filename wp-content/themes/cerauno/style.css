@@ -1832,8 +1832,8 @@ object {
 		display: block;
 	}
 }
-.home .entry-title{
-font-size:30px !important	
+.entry-title{
+font-size:32px !important	
 }
 .byline, .comments-link, .edit-link{
 display:none !important;	
