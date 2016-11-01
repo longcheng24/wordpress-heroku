@@ -1138,5 +1138,6 @@ aside#secondary {
     border-radius: 10px;	
 }
 .main-navigation ul a {
-    padding: 7px 10px !important;
+    padding: 5px 8px !important;
+	font-size:0.8rem
 }
