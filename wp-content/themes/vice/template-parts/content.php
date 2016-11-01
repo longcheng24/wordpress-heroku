@@ -34,9 +34,4 @@
         ));
         ?>
     </div><!-- .entry-content -->
-
-    <footer class="entry-footer">
-        <?php echo '<a class="more-link" href="' . get_permalink() . '">'.__('Read More', 'vice').'</a>' ?>
-        <?php vice_entry_footer(); ?>
-    </footer><!-- .entry-footer -->
 </article><!-- #post-## -->
