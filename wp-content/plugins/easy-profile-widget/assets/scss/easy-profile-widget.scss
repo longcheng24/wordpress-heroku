@@ -1,0 +1,26 @@
+@import "compass";
+
+.easy-profile-widget-avatar-left{
+	.avatar{
+		margin: 0 1em 0 0;
+	}
+}
+.easy-profile-widget-avatar-right{
+	.avatar{
+		float: right;
+		margin: 0 0 0 1em;
+	}
+}
+.easy-profile-widget-avatar-center{
+	text-align: center;
+	.avatar{
+		display: block;
+		float: none;
+		margin: 0 auto 0.5em;
+	}
+}
+.easy-profile-widget-avatar-rounded{
+	.avatar{
+		@include border-radius( 50% );
+	}
+}
