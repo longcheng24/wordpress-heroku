@@ -1853,8 +1853,9 @@ float:none !important;
 width:90% !important;
 }
 a, a:visited{
-	font-weight:normal !important
+	font-weight:normal !important;
+	font-weight:normal !important;
 }
 pre{
-	padding: 0.6em !important
+	padding: 0.6em !important;
 }
