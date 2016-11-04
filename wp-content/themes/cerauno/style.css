@@ -1847,6 +1847,7 @@ float:none !important;
 	display: inline-block !important;
 	position:relative !important;
 	vertical-align: top !important;
+	margin-left:1.5rem !important
 }
 .home .entry-summary{
 float:none !important;
