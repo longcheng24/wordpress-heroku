@@ -33,20 +33,6 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'cerauno' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-		<nav id="site-navigation" class="main-navigation clear" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Menu', 'cerauno' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-
-			<?php if ( has_nav_menu( 'social' ) ) : ?>
-				<?php wp_nav_menu( array(
-									'theme_location'  => 'social',
-									'depth'           => 1,
-									'link_before'     => '<span class="screen-reader-text">',
-									'link_after'      => '</span>',
-									'container_class' => 'social-links', ) ); ?>
-			<?php endif; ?>
-		</nav><!-- #site-navigation -->
-
 		<div class="site-branding">
 			<?php if ( function_exists( 'jetpack_the_site_logo' ) && has_site_logo() ) : ?>
 				<?php jetpack_the_site_logo(); ?>
