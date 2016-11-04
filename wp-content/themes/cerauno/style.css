@@ -1851,5 +1851,7 @@ float:none !important;
 .home .entry-summary{
 float:none !important;
 width:90% !important;
-	
+}
+a, a:visited{
+	font-weight:normal !important
 }
